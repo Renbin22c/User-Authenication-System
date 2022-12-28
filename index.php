@@ -74,10 +74,10 @@ if (
           </div>
           <div>
             <?php if ( isset($_SESSION['user'])): ?>
-            <a href="logout" class="btn btn-link" id="logout">Logout</a>
+            <a href="logout" class="btn btn-link" id="logout.php">Logout</a>
             <?php else: ?>
-            <a href="login" class="btn btn-link" id="login">Login</a>
-            <a href="signup" class="btn btn-link" id="signup">Sign Up</a>
+            <a href="login" class="btn btn-link" id="login.php">Login</a>
+            <a href="signup" class="btn btn-link" id="signup.php">Sign Up</a>
             <?php endif; ?>
           </div>
         </div>
